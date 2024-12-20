@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Penjualan Tahunan</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Chart.js library from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Dashboard Container -->
+    <div class="dashboard">
+        <!-- Navigation Sidebar -->
+        <nav class="sidebar">
+            <h2 class="logo">Dashboard</h2>
+            <ul>
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Reports</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <!-- Header Section -->
+            <header>
+                <h1>Hay, I am Jefri Danil</h1>
+                <p>Here are your latest stats.</p>
+            </header>
+
+            <!-- Widgets Section -->
+            <section class="widgets">
+                <!-- Widget 1 -->
+                <div class="widget">
+                    <p>Jefri Danil</p>
+                    <p>221011400344</p>
+                    <p>05TPLE002</p>
+                </div>
+            </section>
+
+            <!-- Charts Section -->
+            <section class="charts">
+                <!-- Bar Chart Container -->
+                <div class="chart-container">
+                    <canvas id="barChart"></canvas>
+                </div>
+            </section>
+            
+        </div>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
