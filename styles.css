@@ -7,7 +7,7 @@
 
 /* Define harmonious color palette using CSS variables */
 :root {
-  --primary-color: #ffffff;       /* Blue shade */
+  --primary-color: #FFFFFF;       /* Blue shade */
   --secondary-color: #50E3C2;     /* Teal shade */
   --background-color: #F5F7FA;    /* Light gray */
   --text-color: #4A4A4A;          /* Dark gray */
